@@ -14,8 +14,11 @@
         <img src = "images/logo.svg" alt = "logo of landig page">
         <h1>We are launching <strong class = "h1-black">soon!</strong></h1>
         <p>Subscribe and get notified</p>
-        <input type="email" id="email" name="email" placeholder = "Your email address...">
-        <input type="submit" value = "Notify Me" id = "submit">
+        <form id = "form" onSubmit = "return validate()">
+            <input type="text" id="email" name="email" placeholder = "Your email address...">
+             
+            <input type="submit" value = "Notify Me" id = "submit">
+        </form>
     </header>
     <div class = "illustration">
       <img src = "images/illustration-dashboard.png">
@@ -27,5 +30,5 @@
     </div>
     <footer>&copy; Copyright Ping. All rights reserved.</footer>
 </body>
-
+<script src="app.js"></script>
 </html>

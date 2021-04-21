@@ -1,6 +1,7 @@
 body{
     margin-left: auto;
     margin-right: auto;
+    margin-top: 1%;
     max-width: 400px;
     text-align: center;
     font-family: 'Libre Franklin', sans-serif;
@@ -27,6 +28,15 @@ header h1{
 header p{
     margin-top: 3vh;
     margin-bottom: 5vh;
+}
+
+#form p{
+    margin-top: 6px;
+    margin-bottom: 1em;
+    color: hsl(354, 100%, 66%);
+    font-size: 12px;
+    font-style: italic;
+    font-weight: bold;
 }
 
 #email{
@@ -91,4 +101,53 @@ header p{
 
 footer{
     color: hsl(0, 0%, 59%);
+}
+
+@media screen and (min-width:647px) {
+  body{
+    max-width: 768px;
+  }
+
+  .illustration img{
+      max-width: 670px;
+  }
+
+  .social{
+      max-width: 25%;
+  }
+
+  .logos{
+      max-width: 25px;
+      max-height: 25px;
+  }
+
+  header img{
+      width: 12%;
+      margin-top: 3vh;
+      margin-bottom: auto;
+  }
+
+  header h1{
+      font-size: 45px;
+  }
+
+  #submit {
+      padding: 17px 5em;
+  }
+
+  #submit:hover{
+      cursor:pointer;
+      background-color: hsl(223, 87%, 63%, 65%);;
+  }
+
+  #email{
+      padding: 15px 8.6em;
+  }
+
+  #form p{
+      text-align: left;
+      margin-left: 11%;
+      font-size: 14px;
+  }
+  
 }
